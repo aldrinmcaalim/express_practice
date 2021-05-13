@@ -18,7 +18,10 @@ APP.get("/", (req, res) => {
 APP.get("/p/:subpost", (req, res) => {
   const { subpost } = req.params;
   const data = postData[subpost];
-  res.render("subpost", { ...data });
+  if (data) {
+    res.render("subpost", { ...data });
+  }
+  res.render("notfound", { subpost });
 });
 
 // PORT LISTENER
