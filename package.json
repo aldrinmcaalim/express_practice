@@ -1,0 +1,24 @@
+{
+  "name": "express_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldrinmcaalim/express_practice.git"
+  },
+  "keywords": [],
+  "author": "Aldrin Caalim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldrinmcaalim/express_practice/issues"
+  },
+  "homepage": "https://github.com/aldrinmcaalim/express_practice#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
